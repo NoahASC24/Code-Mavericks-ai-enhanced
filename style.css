@@ -1,0 +1,125 @@
+h1{
+    text-align: center;
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+h2{
+    margin: 0px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+}
+/*why does this affect p?*/
+.pfpDiv{
+    text-align: center;
+}
+.pfp{
+    
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+/*Title*/
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:600px;
+    img {
+        margin-top:15px;
+        margin-left:500px;;
+
+        text-align:right;
+    }
+}
+.headerName{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.members {   
+    nav {
+        background-color: grey;
+        a {
+            text-decoration: none;
+            color:black;
+        }
+        font-family:Georgia;
+        font-size: 20px;
+        display:flex;
+        justify-content: space-around;
+        padding: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 2px solid black;        
+        .member{
+            border: 3px solid antiquewhite;
+            background-color: antiquewhite;
+            padding: 5px;
+            margin: 5px;;
+            border-radius: 2px;
+        }
+        
+    }
+}
+#dark {
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    color: grey;
+} 
+.links {
+    text-align: center;
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        font-family: Georgia    ;
+    }
+
+    border: 3px solid black;
+    display:table;
+    margin:auto;
+    background-color: grey;
+}
+.bio {
+    p{
+        font-size: 18px;
+    }
+    text-align: center;
+    border: 3px black solid;
+    background-color: grey;
+    font-size: 20px;
+    margin-right: 400px;
+    margin-left:400px;
+}
+.link{
+    border: 3px solid black;
+}
+
+@media(max-width:2100px) {
+    .bio {
+        margin-left:200px;
+        margin-right:200px;
+    }
+}
